@@ -1,0 +1,22 @@
+{
+  "name": "ride-share-app-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "mapbox-gl": "^0.43.0",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-mapbox-gl": "^3.4.1"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:3001/"
+}
